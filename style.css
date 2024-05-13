@@ -40,24 +40,29 @@ header > div {
   }
 
   .npm-logo {
-    
+    width: 5%;
+    height: 5%;
   }
 
   .search-icon {
-
+    width: 5%;
+    height: 5%;
   }
 
   .useful-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
   }
 
   .search-container {
     display: flex;
-    justify-content: center;
-    align-self: center;
+    flex-grow: 3;
 
+  }
+
+  .search-container button {
+    background-color: #FB3B49;
+    color: white;
   }
 
   #invitation {
@@ -67,7 +72,7 @@ header > div {
     justify-content: center;
   }
 
-  #invitation .container {
+  #invitation .container1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,3 +84,47 @@ header > div {
     box-shadow: 8px 8px 0 rgba(251, 59, 73, .2);
   }
 
+  #invitation div {
+    display: flex;
+  }
+
+  #general-information {
+    display: flex;
+    justify-content: center;
+  }
+
+  #general-information .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #general-information h2 {
+    background-color: rgba(255, 204, 53, .4);
+  }
+
+  #general-information img {
+    height: 40%;
+  }
+
+  #service-details > div {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .service-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service-box img {
+    display: flex;
+    height: 20px;
+    
+  }
+
+  #service-details > button {
+    display: flex;
+    align-self: center;
+  }
